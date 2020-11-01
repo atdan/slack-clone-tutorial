@@ -1,0 +1,21 @@
+{
+  "name": "slack-clone",
+  "version": "1.0.0",
+  "description": "A simple slack clone",
+  "main": "slack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node slack.js",
+    "dev": "nodemon slack.js"
+  },
+  "author": "Daniel Atuma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "save-dev": "0.0.1-security",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
